@@ -1,0 +1,93 @@
+body{
+overflow-x: hidden;
+font-family: arial,helvetica, sans-serif !important;
+}
+#bg{
+  background-image: url('med.jpg');
+  width: 100%;
+  height: auto 100%;
+  top:0;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  transition: 0.5s ease-in-out;
+}
+/* ===SCROLLBAR  CSS START=== */
+
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+  display: none !important;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: black}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #6b04d1;
+}
+
+/* ==== NAVBAR MODIFICATIONS ==== */
+.navbar li{
+  font-weight: bold;
+  padding: 0px 20px 0px 20px;
+}
+.navbar{
+  transition: 0.5s ease-in-out;
+  z-index: 9;
+}
+.navbar-brand{
+  font-weight: bolder !important;
+  font-size: 24px !important;
+  color: white !important;
+}
+
+.wrapper{
+height:15px;
+}
+
+.navbar .active a{
+  color: white !important;
+  vertical-align: middle;
+}
+
+.navbar li a{
+  color: #b0b0b0 !important;
+  transition: 0.5s;
+  vertical-align: middle;
+  border: 2px solid transparent;
+  transition: 0.5s;
+}
+
+.navbar li a:hover{
+  color: white !important;
+  transition: 0.5s;
+  border: 2px solid white;
+  transition: 0.5s;
+
+}
+
+.navbar .dm{
+  color: #b0b0b0 !important;
+  transition: 0.5s;
+  vertical-align: middle;
+  border: 2px solid transparent;
+  transition: 0.5s;
+}
+
+.navbar .dm:hover{
+  color: white !important;
+  transition: 0.5s;
+}
+
+.navbar .dm label{
+  margin-left: 8px;
+  margin-bottom: 0;
+}
+
+.navbar.collapsing,
+.navbar.show {
+    background-color:white !important;
+}
